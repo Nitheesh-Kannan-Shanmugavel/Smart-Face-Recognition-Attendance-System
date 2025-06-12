@@ -30,3 +30,28 @@ The Smart Attendance Review System uses **Face Recognition** to automate student
 - Image enhancement for better accuracy.
 - Excel report generation.
 - Automated email sending.
+
+---
+
+## 📂 Folder Structure
+
+> **Note:** Actual photos and reports are not included for privacy. These folders will be auto-created at runtime.
+
+smart-face-recognition-attendance-system/
+│
+├── group_photos/ # Group images used to detect faces
+│ └── classroom_1.jpg # Example photo used in attendance
+│
+├── students/ # Known student face images for comparison
+│ ├── John_123/ #folder named as Name_Roll number
+│ │ └── face1.jpg #Face image of student
+│ └── Alice_456/
+│ └── face1.jpg
+│
+├── attendance_records/ # Excel reports generated with timestamps
+│ └── attendance_12-06-2025.xlsx
+│
+├── main_attendance.py # Runs the attendance marking system
+├── train_faces.py # (Optional) Script to encode known faces
+├── .gitignore # Prevents uploading sensitive folders
+└── README.md # You're here!
