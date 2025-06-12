@@ -39,19 +39,16 @@ The Smart Attendance Review System uses **Face Recognition** to automate student
 
 smart-face-recognition-attendance-system/
 │
-├── group_photos/ # Group images used to detect faces
-│ └── classroom_1.jpg # Example photo used in attendance
+├── group_photos/              # Contains group/classroom images for attendance
+│   └── .gitkeep               # Placeholder to keep folder in repo
 │
-├── students/ # Known student face images for comparison
-│ ├── John_123/ #folder named as Name_Roll number
-│ │ └── face1.jpg #Face image of student
-│ └── Alice_456/
-│ └── face1.jpg
+├── students/                  # Known student face images for comparison
+│   └── .gitkeep               # Placeholder (format: Name_RollNumber folders inside)
 │
-├── attendance_records/ # Excel reports generated with timestamps
-│ └── attendance_12-06-2025.xlsx
+├── attendance_records/        # Excel attendance reports with timestamps
+│   └── .gitkeep               # Placeholder for reports generated at runtime
 │
-├── main_attendance.py # Runs the attendance marking system
-├── train_faces.py # (Optional) Script to encode known faces
-├── .gitignore # Prevents uploading sensitive folders
-└── README.md # You're here!
+├── main_attendance.py         # Main script for processing and generating attendance
+├── train_faces.py             # (Optional) Script to encode known student faces
+├── .gitignore                 # Specifies files/folders to exclude from Git
+└── README.md                  # Project documentation
