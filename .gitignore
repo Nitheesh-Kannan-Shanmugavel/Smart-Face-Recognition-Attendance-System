@@ -1,0 +1,17 @@
+# Ignore sensitive images and outputs
+*.jpg
+*.jpeg
+*.png
+*.xlsx
+
+# Python cache
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store
+
+# Optional folders to ignore
+group photo/
+students/
+attendance_records/
