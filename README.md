@@ -16,7 +16,7 @@ The Smart Attendance Review System uses **Face Recognition** to automate student
 3. **Face Detection & Matching**
    - Detects faces in the group photo.
    - Matches each detected face with the known student encodings.
-   - Marks identified students as "Present" and unrecognized as "Absent".
+   - Marks identified students as "Present" and mark as "Absent" to students who is not present in image.
 
 4. **Generate Attendance Report**
    - Creates a structured Excel file with roll numbers, names, and presence status.
